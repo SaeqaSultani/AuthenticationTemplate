@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/image_13"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp"
+        android:background="@color/overlay_light_90"
+        android:layout_marginRight="@dimen/spacing_mxlarge"
+        android:layout_marginLeft="@dimen/spacing_mxlarge"
+        android:layout_marginTop="130dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="FirstName"
+            android:padding="@dimen/spacing_large"
+            android:theme="@style/EditTextTwentieth"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="LastName"
+            android:padding="@dimen/spacing_large"
+            android:theme="@style/EditTextTwentieth"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:padding="@dimen/spacing_large"
+            android:theme="@style/EditTextTwentieth"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Username"
+            android:padding="@dimen/spacing_large"
+            android:theme="@style/EditTextTwentieth"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:padding="@dimen/spacing_large"
+            android:theme="@style/EditTextTwentieth"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/layout"
+        android:layout_gravity="right"
+        android:layout_marginTop="-25dp"
+        android:layout_marginRight="@dimen/spacing_medium"
+        android:src="@drawable/ic_keyboard_arrow_1"
+        android:background="@color/overlay_dark_100"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

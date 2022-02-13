@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_marginTop="@dimen/spacing_xxxlarge"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/activity_login_page_EditText_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/spacing_mlarge"
+                android:hint="EmailID"
+                android:theme="@style/EditTextFirst"/>
+
+            <EditText
+                android:id="@+id/activity_login_page_EditText_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/spacing_mlarge"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:hint="Password"
+                android:theme="@style/EditTextFirst"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/text_view_forgot"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:padding="@dimen/spacing_middle"
+                android:layout_gravity="end"
+                android:text="ForgotPassword?"
+                android:textColor="@color/overlay_dark_100"
+                android:textStyle="bold"
+                />
+
+
+            <Button
+                android:id="@+id/btn_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="login"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Don't have an account? Register"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/text_view_sign_up"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:padding="@dimen/spacing_middle"
+                    android:text="Now"
+                    android:textColor="@color/overlay_dark_100"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+  </LinearLayout>
+
+</ScrollView>

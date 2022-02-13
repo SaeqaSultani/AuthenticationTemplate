@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/image_1"
+            android:layout_marginTop="@dimen/spacing_xxxlarge"/>
+
+        <TextView
+            android:id="@+id/text_view_forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/spacing_middle"
+            android:text="World of Cooking"
+            android:textSize="@dimen/spacing_xlarge"
+            android:textColor="@color/purple_A800"
+            android:textStyle="bold"
+            app:fontFamily="@font/arizonia" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/activity_login_page_EditText_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/spacing_large"
+                android:hint="EmailAddress"
+                android:theme="@style/EditTextSecond"
+                android:background="@drawable/txt_area_dark_1"
+                android:gravity="center_horizontal"/>
+
+
+            <EditText
+                android:id="@+id/activity_login_page_EditText_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/spacing_large"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:hint="Password"
+                android:theme="@style/EditTextSecond"
+                android:background="@drawable/txt_area_dark_1"
+                android:gravity="center_horizontal"/>
+
+
+
+            <Button
+                android:id="@+id/btn_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/gradient_1"
+                android:text="login"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/spacing_mlarge"
+                android:text="________ or With ________"
+                android:gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+               <Button
+                   android:layout_width="120dp"
+                   android:layout_height="35dp"
+                   android:background="@drawable/ic_background_1"
+                   android:backgroundTint="#1877F2"
+                   android:text="Facebook"
+                   android:textSize="13sp"
+                   android:textColor="@color/overlay_light_90"
+                   android:drawableLeft="@drawable/icon_facebook_1" />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/ic_background_1"
+                    android:layout_marginLeft="@dimen/spacing_xxlarge"
+                    android:backgroundTint="#DC4B3B"
+                    android:drawableLeft="@drawable/icon_google_1"
+                    android:text="Google"
+                    android:textSize="13sp"
+                    android:textColor="@color/overlay_light_90"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Don't have an account?"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/text_view_sign_up"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:padding="@dimen/spacing_middle"
+                    android:text="Register"
+                    android:textColor="@color/overlay_dark_100"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+  </LinearLayout>
+
+</ScrollView>

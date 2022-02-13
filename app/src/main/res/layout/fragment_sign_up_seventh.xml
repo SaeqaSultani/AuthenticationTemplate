@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/text_view_forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/spacing_middle"
+        android:text="Create Account"
+        android:textSize="@dimen/spacing_xlarge"
+        android:textColor="@color/blue_1000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="create a new account"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/OutlineBox_1"
+                app:hintTextAppearance="@style/Hint_1"
+                android:layout_marginTop="@dimen/spacing_middle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:padding="@dimen/spacing_large"
+                    android:textAllCaps="true"
+                    android:hint="Name"
+                    android:textSize="@dimen/spacing_large"
+                    android:theme="@style/EditTextSeventh"
+                    android:drawableLeft="@drawable/ic_person_outline_2"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/OutlineBox_1"
+                app:hintTextAppearance="@style/Hint_1"
+                android:layout_marginTop="@dimen/spacing_middle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/spacing_large"
+                    android:textAllCaps="true"
+                    android:hint="Email"
+                    android:textSize="@dimen/spacing_large"
+                    android:theme="@style/EditTextSeventh"
+                    android:drawableLeft="@drawable/ic_mail_outline_1"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/OutlineBox_1"
+                app:hintTextAppearance="@style/Hint_1"
+                android:layout_marginTop="@dimen/spacing_middle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:padding="@dimen/spacing_large"
+                    android:textAllCaps="true"
+                    android:hint="Phone"
+                    android:textSize="@dimen/spacing_large"
+                    android:theme="@style/EditTextSeventh"
+                    android:drawableLeft="@drawable/ic_smartphone"
+                    app:mask="+93 *** *** ** **"
+                    app:notMaskedSymbol="*"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/OutlineBox_1"
+                app:hintTextAppearance="@style/Hint_1"
+                android:layout_marginTop="@dimen/spacing_middle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/spacing_large"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:hint="Password"
+                    android:textSize="@dimen/spacing_large"
+                    android:textAllCaps="true"
+                    android:theme="@style/EditTextSeventh"
+                    android:drawableLeft="@drawable/ic_outline_lock"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/OutlineBox_1"
+                app:hintTextAppearance="@style/Hint_1"
+                android:layout_marginTop="@dimen/spacing_middle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/spacing_large"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:hint="Confirm Password"
+                    android:textSize="@dimen/spacing_large"
+                    android:textAllCaps="true"
+                    android:theme="@style/EditTextSeventh"
+                    android:drawableLeft="@drawable/ic_outline_lock"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <Button
+                android:id="@+id/btn_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/spacing_smlarge"
+                android:backgroundTint="@color/blue_1000"
+                android:background="@drawable/ic_background_1"
+                android:text="create Account"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an account?"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:textSize="13sp"
+                    />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/text_view_sign_up"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:padding="@dimen/spacing_middle"
+                    android:text="Login"
+                    android:textColor="@color/blue_1000"
+                    android:textSize="13sp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

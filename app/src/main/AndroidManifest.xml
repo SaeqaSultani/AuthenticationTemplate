@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asoodaowar.ezTemplate">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MainActivity"/>
+        <activity android:name=".activities.AboutActivity"/>
+        <activity android:name=".activities.SignInUpTwentiethActivity"/>
+        <activity android:name=".activities.SignInUpNineteenthActivity"/>
+        <activity android:name=".activities.SignInUpEighteenthActivity"/>
+        <activity android:name=".activities.SignInUpSeventeenthActivity"/>
+        <activity android:name=".activities.SignInUpSixteenthActivity"/>
+        <activity android:name=".activities.SignInUpFifteenthActivity"/>
+        <activity android:name=".activities.SignInUpFourteenthActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpThirteenthActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpTwelfthActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpEleventhActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpTenthActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpNinthActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpEightActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpSeventhActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpSixthActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpFifthActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpFourthActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpThirdActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpSecondActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SignInUpFirstActivity"/>
+        <activity android:name="com.asoodaowar.ezTemplate.activities.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Auth Temp</string>
+    <string name="upload_image"><u>Upload Image</u></string>
+    <string name="upload_picture"><u>Upload Picture</u></string>
+    <string name="sign_in" tools:ignore="ExtraTranslation">SignIn</string>
+    <string name="sign_up">SignUp</string>
+    <string name="signIn"><u>Sign in</u></string>
+    <string name="signUp"><u>Sign up</u></string>
+    <string name="forgot_password"><u>ForgotPassword?</u></string>
+    <string name="about">About</string>
+
+    <string name="version">Version 1.0</string>
+    <string name="connect_us">Connect with us</string>
+    <string name="advertise_us">Advertise with us</string>
+    <string name="send_report">Send your reports quickly  and see theme clarify</string>
+    <string name="about_page">Asooda Owar is an IT company headquartered in
+        Herat – Afghanistan focuses on Designing and Developing Websites and Web Applications,
+        Developing Mobile Applications, Host and Domain Services, Graphic Design and Database Design.
+        Asooda Owar aims to make businesses simpler and better.</string>
+
+
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register to AsoodaOwar Company"
+       android:layout_marginLeft="@dimen/spacing_xlarge"
+        android:layout_marginTop="@dimen/spacing_xxxlarge"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="40dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="35dp">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:maxLines="1"
+                    android:padding="@dimen/spacing_mlarge"
+                    android:singleLine="true"
+                    android:theme="@style/EditTextFirst" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="EmailID"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:padding="@dimen/spacing_mlarge"
+                    android:singleLine="true"
+                    android:theme="@style/EditTextFirst"   />
+
+
+                <com.github.pinball83.maskededittext.MaskedEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="PhoneNumber"
+                    android:inputType="number"
+                    android:padding="@dimen/spacing_mlarge"
+                    app:mask="+93 *** *** ** **"
+                    app:notMaskedSymbol="*"
+                    android:theme="@style/EditTextFirst"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    app:passwordToggleEnabled="true"
+                    android:maxLines="1"
+                    android:padding="@dimen/spacing_mlarge"
+                    android:singleLine="true"
+                    android:theme="@style/EditTextFirst" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ConfirmPassword"
+                    android:inputType="textPassword"
+                    app:passwordToggleEnabled="true"
+                    android:maxLines="1"
+                    android:padding="@dimen/spacing_mlarge"
+                    android:singleLine="true"
+                    android:theme="@style/EditTextFirst"  />
+
+
+                <Button
+                    android:id="@+id/btn_sign_up"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/spacing_mlarge"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="Register"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

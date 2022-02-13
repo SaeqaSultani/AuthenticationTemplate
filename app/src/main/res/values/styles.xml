@@ -1,0 +1,285 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="popupTheme">@style/popupTheme</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/blue_grey_600</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="EditTextFirst" parent="@style/AppTheme">
+<!--        <item name="colorControlNormal">@color/colorPrimary</item>-->
+        <item name="colorControlActivated">@color/amber_A700</item>
+        <item name="colorControlHighlight">@color/amber_A700</item>
+    </style>
+
+    <style name="EditTextSecond" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/purple_A800</item>
+        <item name="colorControlHighlight">@color/purple_A800</item>
+    </style>
+
+    <style name="EditTextThird" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/deep_purple_A50</item>
+        <item name="colorControlHighlight">@color/deep_purple_A50</item>
+    </style>
+
+    <style name="EditTextFourth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/amber_A300</item>
+        <item name="colorControlHighlight">@color/amber_A300</item>
+    </style>
+
+    <style name="EditTextFifth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/purple_A50</item>
+        <item name="colorControlHighlight">@color/purple_A50</item>
+    </style>
+
+    <style name="EditTextSixth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/indigo_1000</item>
+        <item name="colorControlHighlight">@color/indigo_1000</item>
+    </style>
+
+    <style name="EditTextSeventh" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/cyan_A500</item>
+        <item name="colorControlHighlight">@color/cyan_A500</item>
+    </style>
+
+    <style name="EditTextEight" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/pink_A300</item>
+        <item name="colorControlHighlight">@color/pink_A300</item>
+    </style>
+
+    <style name="EditTextNinth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/green_A300</item>
+        <item name="colorControlHighlight">@color/green_A300</item>
+    </style>
+
+    <style name="EditTextTenth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/pink_A800</item>
+        <item name="colorControlHighlight">@color/pink_A800</item>
+    </style>
+
+    <style name="EditTextEleventh" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/overlay_light_90</item>
+        <item name="colorControlHighlight">@color/overlay_light_90</item>
+    </style>
+
+    <style name="EditTextTwelfth_1" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/overlay_dark_40</item>
+        <item name="colorControlHighlight">@color/overlay_dark_40</item>
+    </style>
+
+    <style name="EditTextTwelfth_2" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/overlay_light_90</item>
+        <item name="colorControlHighlight">@color/overlay_light_90</item>
+    </style>
+
+    <style name="EditTextThirteenth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/purple_A900</item>
+        <item name="colorControlHighlight">@color/purple_A900</item>
+    </style>
+
+
+    <style name="EditTextFourteenth" parent="@style/AppTheme">
+        <item name="android:textSize">15sp</item>
+        <item name="colorControlActivated">@color/indigo_A50</item>
+        <item name="colorControlHighlight">@color/indigo_A50</item>
+    </style>
+
+    <style name="EditTextFifteenth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/yellow_A800</item>
+        <item name="colorControlHighlight">@color/yellow_A800</item>
+    </style>
+
+    <style name="EditTextSixteenth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/pink_A10</item>
+        <item name="colorControlHighlight">@color/pink_A10</item>
+    </style>
+
+    <style name="EditTextSeventeenth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/purple_A10</item>
+        <item name="colorControlHighlight">@color/purple_A10</item>
+    </style>
+
+    <style name="EditTextEighteenth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/blue_grey_A300</item>
+        <item name="colorControlHighlight">@color/blue_grey_A300</item>
+    </style>
+
+    <style name="EditTextNineteenth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/yellow_A50</item>
+        <item name="colorControlHighlight">@color/yellow_A50</item>
+    </style>
+
+    <style name="EditTextTwentieth" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/pink_10</item>
+        <item name="colorControlHighlight">@color/pink_10</item>
+    </style>
+
+    <style name="popupTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/overlay_light_90</item>
+        <item name="android:textColor">@color/overlay_dark_100</item>
+
+    </style>
+
+
+
+    <style name="CustomTabLayoutFirst" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/amber_A700</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutSecond" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/purple_A800</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutThird" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/deep_purple_A50</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutFourth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/amber_A300</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutFifth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/purple_A50</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutSixth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/indigo_1000</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutSeventh" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/blue_1000</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutEight" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/pink_A300</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutNinth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/green_A300</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutTenth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/pink_A800</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutEleventh" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/overlay_light_90</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutTwelfth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/green_1000</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+
+    <style name="CustomTabLayoutThirteenth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/purple_A900</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+       <style name="CustomTabLayoutFourteenth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/green_A900</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutFifteenth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/indigo_A50</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutSixteenth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/pink_A10</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutSeventeenth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/purple_A10</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+
+    <style name="CustomTabLayoutEighteenth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/blue_grey_A300</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutNineteenth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/yellow_A50</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+    <style name="CustomTabLayoutTwentieth" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/pink_10</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">@color/overlay_light_100</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+    <style name="Hint_1" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/overlay_dark_60</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Hint_2" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/overlay_dark_60</item>
+    </style>
+
+    <style name="OutlineBox_1" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <item name="boxStrokeColor">@color/overlay_dark_40</item>
+
+    </style>
+
+    <style name="OutlineBox_2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <item name="boxStrokeColor">@color/pink_A300</item>
+
+    </style>
+    
+</resources>

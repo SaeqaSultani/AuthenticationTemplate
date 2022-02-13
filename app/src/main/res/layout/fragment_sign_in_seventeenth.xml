@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_9"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+        android:layout_margin="@dimen/spacing_xlarge">
+
+
+
+        <TextView
+            android:id="@+id/text_view_forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/spacing_middle"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:layout_marginLeft="@dimen/spacing_large"
+            android:layout_marginRight="@dimen/spacing_large"
+            android:text="Sign In"
+            android:textSize="@dimen/spacing_xxlarge"
+            android:textColor="@color/overlay_light_90"
+            android:textStyle="bold"
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_background_1"
+            android:backgroundTint="@color/overlay_light_100"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:layout_marginTop="@dimen/spacing_mxlarge"
+            android:padding="@dimen/spacing_middle"
+            android:theme="@style/EditTextSeventeenth"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_background_1"
+            android:backgroundTint="@color/overlay_light_100"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_marginTop="@dimen/spacing_mxlarge"
+            android:padding="@dimen/spacing_middle"
+            android:theme="@style/EditTextSeventeenth"/>
+
+            <Button
+                android:id="@+id/btn_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/spacing_mxlarge"
+                android:background="@drawable/ic_background_2"
+                android:text="Sign In"
+                android:textColor="@color/grey_40"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or using"
+            android:textColor="@color/overlay_light_90"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/spacing_large"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/spacing_large">
+
+
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icon_twitter_4"
+                android:background="@drawable/ic_background_2"
+                android:backgroundTint="#03A9F4"
+                android:layout_marginRight="@dimen/spacing_middle"
+                android:layout_marginLeft="@dimen/spacing_middle"/>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icon_facebook_1"
+                android:background="@drawable/ic_background_2"
+                android:backgroundTint="#3F51B5"
+                android:layout_marginRight="@dimen/spacing_middle"
+                android:layout_marginLeft="@dimen/spacing_middle"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/spacing_xlarge">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:text="Don't have an account"
+                    android:textColor="@color/overlay_light_90"
+                    />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/text_view_sign_up"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:text="Sign Up"
+                    android:padding="@dimen/spacing_medium"
+                    android:textColor="@color/overlay_dark_100"
+                    android:textStyle="bold"
+                     />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

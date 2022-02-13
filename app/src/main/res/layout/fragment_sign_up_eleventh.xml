@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_5"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/text_view_forgot"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing_middle"
+            android:layout_marginRight="@dimen/spacing_middle"
+            android:layout_marginLeft="@dimen/spacing_middle"
+            android:text="Create your Account"
+            android:textSize="@dimen/spacing_mxlarge"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/overlay_light_90"
+            android:textStyle="bold"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:padding="@dimen/spacing_mxlarge"
+                    android:hint="Your Name"
+                    android:textColor="@color/overlay_light_90"
+                    android:theme="@style/EditTextEleventh"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:textColorHint="@color/overlay_light_90"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:padding="@dimen/spacing_mxlarge"
+                    android:hint="Username/Email"
+                    android:textColor="@color/overlay_light_90"
+                    android:theme="@style/EditTextEleventh"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:textColorHint="@color/overlay_light_90"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:textColor="@color/overlay_light_90"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:padding="@dimen/spacing_mxlarge"
+                    android:theme="@style/EditTextEleventh"
+                    android:hint="Password"
+                    android:textColorHint="@color/overlay_light_90"/>
+
+
+
+                <Button
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/spacing_xlarge"
+                    android:background="@drawable/ic_background_2"
+                    android:backgroundTint="@color/overlay_dark_100"
+                    android:text="Sign up"
+                    android:textAllCaps="false"
+                    android:textColor="@color/overlay_light_90"
+                    />
+
+                <Button
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout"
+                    android:layout_gravity="center"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp"
+                    android:layout_marginTop="@dimen/spacing_mxlarge"
+                    android:background="@drawable/ic_background_2"
+                    android:backgroundTint="@color/overlay_light_100"
+                    android:text="Sign up with Facebook"
+                    android:drawableLeft="@drawable/icon_facebook_6"
+                    android:textAllCaps="false"
+                    android:textColor="@color/overlay_dark_100"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout"
+                    android:layout_gravity="start"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/spacing_mxlarge">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:textSize="12sp"
+                        android:text="Already have account?"
+                        android:textColor="@color/overlay_light_90" />
+
+                    <TextView
+                        android:id="@+id/text_view_sign_up"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:padding="@dimen/spacing_middle"
+                        android:textSize="12sp"
+                        android:text="Log In"
+                        android:textColor="@color/overlay_light_90"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
